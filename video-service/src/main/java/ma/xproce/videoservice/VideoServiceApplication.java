@@ -47,6 +47,7 @@ public class VideoServiceApplication {
                             .build()
             );
 
+            
             videoRepository.saveAll(videos);
 
         };
