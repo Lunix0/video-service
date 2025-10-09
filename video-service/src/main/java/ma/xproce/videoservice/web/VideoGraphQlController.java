@@ -26,5 +26,10 @@ public class VideoGraphQlController {
         return creatorRepository.findById(id)
                 .orElseThrow(()->new RuntimeException(String.format("Creator  %s notfound",id)));
     }
+    @QueryMapping
+    public Video videoById(@Argument Long id) {
+        return videoRepository.findById(id)
+                .orElseThrow(()->new RuntimeException(String.format("Video  %s notfound",id)));
+    }
 
 }

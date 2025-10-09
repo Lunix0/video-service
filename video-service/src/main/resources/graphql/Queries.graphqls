@@ -1,0 +1,5 @@
+type Query {
+    videoList : [Video]
+    videoById(id :Float) : Video
+    creatorById(id :Float) : Creator
+}
