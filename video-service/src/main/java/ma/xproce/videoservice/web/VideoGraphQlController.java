@@ -45,7 +45,9 @@ public class VideoGraphQlController {
     public Video saveVideo(@Argument VideoRequest videoRequest) {
         Video video = new Video();
         video.setName(videoRequest.name());
+
         video.setUrl(videoRequest.url());
+
         video.setDescription(videoRequest.description());
         video.setDatePublication(videoRequest.datePublication());
         Creator creator = new Creator();
