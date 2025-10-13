@@ -31,7 +31,7 @@ public class VideoServiceApplication {
             // --- Création des vidéos ---
             List<Video> videos = List.of(
                     Video.builder()
-                            .name("I Bought Everything in a store")
+                            .name("I bought everything in a store")
                             .url("https://www.youtube.com/watch?v=mrbeast1")
                             .description("MrBeast achète tout dans un magasin !")
                             .datePublication(new Date(1998, 03, 25))
