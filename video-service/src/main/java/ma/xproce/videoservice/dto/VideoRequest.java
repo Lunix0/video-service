@@ -5,5 +5,6 @@ public record VideoRequest(
         String url,
         String description,
         String datePublication,
+
         CreatorRequest creator
 ) {}

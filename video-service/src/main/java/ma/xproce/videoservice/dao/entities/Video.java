@@ -21,5 +21,6 @@ public class Video {
     private String description;
     private Date datePublication;
     @ManyToOne
+
     private Creator creator;
 }
