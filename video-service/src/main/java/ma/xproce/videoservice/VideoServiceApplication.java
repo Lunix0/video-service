@@ -33,7 +33,7 @@ public class VideoServiceApplication {
                     Video.builder()
                             .name("I bought Everything in a Store")
                             .url("https://www.youtube.com/watch?v=mrbeast1")
-                            .description("MrBeast achète tout dans un magasin !")
+                            .description("Mrbeast achète tout dans un magasin !")
                             .datePublication(new Date(1998, 03, 25))
                             .creator(creators.get(0)) // MrBeast
                             .build(),
