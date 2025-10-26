@@ -18,9 +18,11 @@ public class Video {
     private Long id;
 
     private String name;
-    
+
     private String url;
+
     private String description;
+    
     private Date datePublication;
     @ManyToOne
 
