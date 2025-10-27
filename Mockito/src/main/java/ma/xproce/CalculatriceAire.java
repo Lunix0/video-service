@@ -8,7 +8,8 @@ public class CalculatriceAire {
         for (IForme forme : formes) {
             aire += forme.aire();
         }
-        return aire;
         
+        return aire;
+
     }
 }
