@@ -22,7 +22,7 @@ public class Video {
     private String url;
 
     private String description;
-    
+
     private Date datePublication;
     @ManyToOne
 
