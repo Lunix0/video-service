@@ -6,7 +6,9 @@ public class Rectangle implements IForme {
 
     public Rectangle(double w, double h) {
         largeur = w;
+
         hauteur = h;
+
     }
 
     public double getLargeur() { return largeur; }
