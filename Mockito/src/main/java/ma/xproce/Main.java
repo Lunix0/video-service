@@ -9,6 +9,7 @@ public class Main {
 
         List<IForme> formes = Arrays.asList(cercle, rectangle);
 
+
         double aireTotale = CalculatriceAire.aire(formes);
 
         System.out.println("Aire totale des formes : " + aireTotale);
