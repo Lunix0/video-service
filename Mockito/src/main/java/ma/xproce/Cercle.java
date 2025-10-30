@@ -5,6 +5,7 @@ public class Cercle implements IForme {
 
     public Cercle(double r) {
         rayon = r;
+
     }
 
     public double getRayon() { return rayon; }
