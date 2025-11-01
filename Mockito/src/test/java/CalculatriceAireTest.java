@@ -12,6 +12,7 @@ import ma.xproce.IForme;
 import org.mockito.Mockito;
 import static org.mockito.Mockito.*;
 
+
 class CalculatriceAireTest {
 
     @Test
