@@ -8,6 +8,7 @@ public class Cercle implements IForme {
 
     }
 
+    
     public double getRayon() { return rayon; }
 
     @Override
