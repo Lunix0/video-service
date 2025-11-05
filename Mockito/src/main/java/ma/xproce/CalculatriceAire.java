@@ -10,7 +10,6 @@ public class CalculatriceAire {
             aire += forme.aire();
         }
 
-        
         return aire;
 
     }
