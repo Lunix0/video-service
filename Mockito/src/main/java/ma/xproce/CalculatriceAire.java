@@ -7,8 +7,6 @@ public class CalculatriceAire {
         double aire = 0;
         for (IForme forme : formes) {
 
-
-            
             aire += forme.aire();
         }
 
